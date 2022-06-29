@@ -4,7 +4,7 @@
   "author": "An Phan <me@phanan.net>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot",
+    "dev": "webpack-dev-server --port 8080 --inline --hot",
     "build": "webpack --mode production --progress --hide-modules"
   },
   "devDependencies": {
